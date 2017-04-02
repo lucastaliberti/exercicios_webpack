@@ -17,6 +17,7 @@ module.exports = {
             , exclude: /node_modules/
             , query: {
                 presets: ['es2015']
+                , plugins: ['transform-object-rest-spread']
             }
         }]
     }
